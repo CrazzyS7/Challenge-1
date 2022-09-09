@@ -16,7 +16,7 @@ public class SpinPropellerX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // tilt the plane up/down based on up/down arrow keys
+        // Rotate the plane propeller 
         transform.Rotate(mSpinPropeller, mRotationSpeed * Time.deltaTime);
     }
 }
